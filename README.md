@@ -12,10 +12,6 @@ Este projeto demonstra boas práticas de DevOps incluindo:
 - ✅ Containerização com Docker
 - ✅ Gerenciamento de versões JDK
 
-**Composição do projeto:**
-- 84% Java
-- 16% Dockerfile
-
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -108,61 +104,10 @@ docker tag java-app demo-app:java-1.0
 ```bash
 docker push demo-app:java-1.0
 ```
-
----
-
-## 📊 Sincronização com Repositório Remoto
-
-Para manter seu projeto local atualizado:
-
-### Fetch de atualizações
-```bash
-git fetch origin
-```
-
-### Pull da branch main
-```bash
-git pull origin main
-```
-
-### Verificar branches locais
-```bash
-git branch -a
-```
-
-### Limpar branches locais não utilizadas
-```bash
-git branch -d nome-da-branch
-```
-
----
-
-## 📝 Commits Recentes
-
-Última sincronização com `main`:
-- ✅ Atualização do workflow CI (29 linhas adicionadas)
-- ✅ Configuração build.gradle otimizada
-- ✅ Update gradle wrapper properties
-- ✅ Ajustes no App.java
-
----
-
-## 🔗 Branches Disponíveis
-
-| Branch | Status | Descrição |
-|---|---|---|
-| `main` | ✅ Principal | Branch de produção |
-| `last-change-workflow` | 🟠 Feature | Últimas mudanças no workflow |
-| `last-change-to-17` | 🟠 Feature | Testes com JDK 17 |
-| `fix/ci-java17` | 🟠 Fix | Correção CI para Java 17 |
-| `new-ci-workflow-1` | 🟠 Feature | Novo workflow experimental |
-| `new-ci-workflow-ver21` | 🟠 Feature | Workflow para JDK 21 |
-
 ---
 
 ## ✨ Próximos Passos
 
-- [ ] Consolidar branches de feature no `main`
 - [ ] Implementar testes unitários automatizados
 - [ ] Adicionar coverage de código
 - [ ] Deploy automatizado (CD)
@@ -170,12 +115,3 @@ git branch -d nome-da-branch
 
 ---
 
-## 📞 Contato
-
-Autor: [@Agnelo-72](https://github.com/Agnelo-72)
-
----
-
-## 📄 Licença
-
-Este projeto é de aprendizado e pode ser usado livremente.
